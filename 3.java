@@ -81,3 +81,5 @@ if(a+b>c&&a+b>c&&b+c>a){System.out.print("Megszerkeszthető");}
      }
      
     }
+
+     
