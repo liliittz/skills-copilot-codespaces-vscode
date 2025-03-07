@@ -1,3 +1,4 @@
+
 Scanner sc=new Scanner(System.in);
      System.out.print("Add meg a-t: ");
      int a=sc.nextInt();
