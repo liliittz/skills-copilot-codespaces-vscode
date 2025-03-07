@@ -59,9 +59,15 @@ System.out.print("Add meg a-t: ");
      System.out.print("Add meg c-t: ");
      int c=sc.nextInt();
         
-     if(a+b<c||a+b<c||b+c<a){System.out.print("Nem lehet megszerkeszteni");}
-     else {if(a*a+b*b=c*c);}??????????
+     if(a + b < c || a + c < b || b + c < a) {
+    System.out.print("Nem lehet megszerkeszteni");
+} else {
+    if(a * a + b * b == c * c) {
+        System.out.println("Derékszögű");
+    } else {
+        System.out.println("Nem derékszögű");
     }
+}
 
 
 if(a+b>c&&a+b>c&&b+c>a){System.out.print("Megszerkeszthető");}
